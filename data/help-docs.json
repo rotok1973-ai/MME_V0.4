@@ -1,0 +1,5 @@
+{
+  "usuarios": "# Ajuda usuaris\n\n- Login: POST /api/auth/login\n- Token JWT: Bearer a cada peticio\n- Veure meus recursos: GET /api/resources/my\n- Autoassignar recurs: POST /api/resources/self-assign\n- Alliberar recurs propi: POST /api/resources/release\n",
+  "grupos": "# Ajuda grups (mode informatiu)\n\n- Objectiu: associar alumnes, recursos i mesa de projecte.\n- Estat recomanat: planificacio -> desenvolupament -> exposicio -> completat.\n- Revisio admin: comprovar recursos assignats i enllacos Drive per mesa.\n",
+  "apiMetodos": "# Metodes funcionals API\n\nAuth\n- POST /api/auth/login\n\nRecursos\n- GET /api/resources\n- GET /api/resources/my\n- POST /api/resources/self-assign\n- POST /api/resources/assign\n- POST /api/resources/release\n- GET /api/resources/assignments/current\n\nAdmin\n- GET /api/admin/whitelist\n- POST /api/admin/whitelist\n- DELETE /api/admin/whitelist/:email\n"
+}

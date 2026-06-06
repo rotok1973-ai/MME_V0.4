@@ -1,0 +1,28 @@
+[
+    {
+        "code": "A-0001",
+        "os": "W-10 Pro",
+        "cpu": "Pentium G630 2,7GHz",
+        "ghz": "2,7",
+        "bits": 64,
+        "motherboard": "GA-H61M-S2PV",
+        "ram": "8GB",
+        "storage": "500GB",
+        "qr_code": "A-0001",
+        "extras": "bbbb",
+        "notes": "revisar"
+    },
+    {
+        "code": "A-0002",
+        "os": "Win10 / ubuntu",
+        "cpu": "Intel Pentium E5400",
+        "ghz": "2,7",
+        "bits": null,
+        "motherboard": "DH77EB",
+        "ram": "2GB DDR3",
+        "storage": "?",
+        "qr_code": "A-0002",
+        "extras": "TG",
+        "notes": "No afegir altre mòdul de RAM"
+    }
+]

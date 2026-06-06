@@ -1,0 +1,33 @@
+// test-ready-last.log
+=== TEST READY REPORT ===
+timestamp: 2026-05-29T13:01:45.952Z
+cwd: C:\Node\APLICACIO-MME\servidor-recursos-v03
+
+--- seed:smoke ---
+
+> servidor-recursos@0.0.1 seed:smoke
+> node scripts/seed-smoke-data.js
+
+Seeding smoke data...
+Users ensured: 6
+Resources created: 0
+Resources updated: 16
+Smoke data ready.
+exit_code=0
+
+--- test:api ---
+
+> servidor-recursos@0.0.1 test:api
+> node scripts/test-api.js
+
+API smoke test base: http://localhost:3000/api
+STEP1 login/token: OK
+STEP2 resources list: OK (20)
+STEP3 my resources: OK (1)
+STEP4 self-assign: OK (PC-LAB-06)
+STEP5 release: OK (PC-LAB-06)
+API smoke test completed successfully.
+exit_code=0
+
+result=PASS
+finished_at=2026-05-29T13:01:47.655Z
