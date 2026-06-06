@@ -1,0 +1,2 @@
+echo "frontend/src/services/*.js" > .eslintignore
+echo "frontend/vite.config.js" >> .eslintignore
